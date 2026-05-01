@@ -1,4 +1,3 @@
-// inventrio de la flota de drones
 export const flota = [
   { id: "Dron-Alpha-1",  bateria: 95,  agua: 100, estado: "en base"       },
   { id: "Dron-Alpha-2",  bateria: 15,  agua: 50,  estado: "en base"       },
@@ -9,7 +8,6 @@ export const flota = [
   { id: "Dron-Delta-1",  bateria: 10,  agua: 0,   estado: "en base"       }
 ];
 
-// alertas de incendios recientes
 export const alertas = [
   { sector: "Valle de los Pinos", severidad: "roja",     aguaRequerida: 250 },
   { sector: "Bosque Seco",        severidad: "amarilla", aguaRequerida: 80  },
